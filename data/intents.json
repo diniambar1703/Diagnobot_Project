@@ -1,0 +1,133 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan", "Halo Sahabat"]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Ok makasih", "Ok bye", "bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!", "Makasih udah mampir"]
+    },
+    {"tag": "lain",
+     "patterns": ["Gejala ringan"],
+     "responses": ["Iya seperti Flu, Demam, Insomnia, Mata Merah, Sariawan, Sakit Kepala, Diare, Sakit Punggung, Mata Merah, Gatal-Gatal"]
+    },
+    {"tag": "lain1",
+     "patterns": ["Saran"],
+     "responses": ["Kami menyediakan informasi terkait gejala ringan seperti Flu, Demam, Insomnia, Mata Merah, Sariawan, Sakit Kepala, Diare, Sakit Punggung, Mata Merah, Gatal-Gatal, Atau Saran Obat?"]
+    },
+    {"tag": "lain2",
+     "patterns": ["Baiklah"],
+     "responses": ["Ok sip"]
+    },
+    {
+        "tag": "lain3",
+        "patterns": ["", " ", "  ", "   ", "      ","dawdawidjaiwldj","babi","monyet"],
+        "responses": ["Saya tidak mengerti, bisa Anda jelaskan lebih lanjut?","Tampaknya ada kebingungan di sini. Bisakah Anda memberikan keterangan lebih lanjut?","Hmm, saya agak bingung. Apakah mungkin Anda memberikan informasi tambahan?","Saya belum sepenuhnya paham. Mungkin Anda bisa memberikan penjelasan lebih lanjut?","Maaf, sepertinya saya bingung. Bisa Anda berikan lebih banyak detail?"]
+    },    
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Namaku DiagnoBot, salam kenal kak!", "Halo, aku DiagnoBot!", "Kenalin, aku DiagnoBot!"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu permasalahan tentang gejala ringan dan pencegahan dini", "Tugasku membantu permasalahan tentang kesehatan khususnya gejala ringan dan memberikan informasi pencegahan", "Saya disini membantu permasalahan terkait gejala ringan yang dihadapin dan juga terdapat informasi terkait pencegahannya"]
+    },
+    {"tag": "diagnobot",
+    "patterns": ["emang diagnobot apa si?", "apa tuh diagnobot?", "emang diagnobot apa sih?", "wah apa tuh diagnobot?", "diagnobot emang apa?", "gejala apa ya?"],
+    "responses": ["DiagnoBot memberikan informasi terkait gejala ringan dan memberikan solusi pencegahan.", "DiagnoBot mampu mengenali gejala ringan dan memberikan informasi awal tentang potensi penyakit dan dapat memberikan informasi pencegahan dini", "DiagnoBot membantu mencegah gejala ringan, memberikan saran praktis"]
+    },
+    {"tag": "diagnobot_typo",
+    "patterns": ["emang bot apa ?", "diano bot?","apaan si dignobot?", "emang dinobot apa sih?", "wah apa tuh botdino?", "diagnobott emang apa?", "digobot itu apa sih"],
+    "responses": ["DiagnoBot kakak, jangan bikin emosi deh","DiagnoBot kakak, jangan salah ya kak", "Typo kak, DiagnoBot kali maksudnya"]
+    },
+    {"tag": "pilihan",
+     "patterns": ["saya bingung?", "boleh bertanya?", "saya mau ketik apa?", "help saya", "tolong saya", "bantu saya", "/help", "bantuan"],
+     "responses": ["Saya dapat membantu terkait kesehatan gejala ringan seperti Flu, Demam, Insomnia, Mata Merah, Sariawan, Sakit Kepala, Diare, Sakit Punggung, Mata Merah, Gatal-Gatal dan cara mencegahnya"]
+    },
+    {"tag": "obat",
+     "patterns": ["obat?", "boleh minta obat?", "obatin aku kak?", "saya diobatin dong kak", "berobat"],
+     "responses": ["Maaf, saya tidak dapat memberikan rekomendasi obat karena saya bukan dokter ahli dan tidak memiliki informasi medis yang cukup tentang kondisi kesehatan spesifik.", "Maaf Jika Anda membutuhkan obat, disarankan untuk berkonsultasi dengan dokter atau profesional kesehatan yang dapat memberikan saran yang sesuai dengan kondisi Anda."]
+    },
+    {"tag": "influenza",
+     "patterns": ["flu?", "influenza?", "apa itu flu?", "apa itu influenza?"],
+     "responses": ["Infeksi virus yang menyebabkan demam, batuk, dan pilek."]
+    },
+    {"tag": "cegah_influenza",
+     "patterns": ["saya terkena flu?", "saya terkena influenza?", "saran cegah flu?", "saran cegah influenza?", "saran agar tidak terkena flu", "saran agar tidak terkena influenza", "tolong saya terkena flu?", "saya kena flu? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahan flu melibatkan langkah-langkah sederhana seperti menjaga kebersihan tangan, menghindari kontak dengan orang yang sakit, dan mendapatkan vaksinasi tahunan.", "Pencegahan: Vaksinasi tahunan, cuci tangan, hindari kontak dengan orang sakit."]
+    },
+    {"tag": "demam",
+     "patterns": ["demam?", "apa itu demam?"],
+     "responses": ["Kenaikan suhu tubuh yang bisa disebabkan oleh berbagai infeksi.", "Demam merupakan gejala yang disebabkan Kenaikan suhu tubuh akibat infeksi atau penyakit."]
+    },
+    {"tag": "cegah_demam",
+     "patterns": ["saya terkena demam?", "saran cegah demam?", "saran agar tidak terkena demam", "tolong saya terkena demam?", "saya kena demam? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahannya melibatkan menjaga kebersihan pribadi, menghindari kontak dengan orang yang sakit, dan mendapatkan vaksinasi yang sesuai untuk mencegah penyebab demam tertentu.", "Jaga kebersihan, hindari kontak dengan orang sakit, dan vaksinasi."]
+    },
+    {"tag": "pilek",
+     "patterns": ["pilek?", "hidung tersumbat", "apa itu pilek?"],
+     "responses": ["Pilek adalah gejala ringan yang biasanya dialami seperti hidung tersumbat", "Pilek adalah kondisi ketika hidung mengeluarkan ingus atau lendir, baik sesekali maupun terus-menerus"]
+    },
+    {"tag": "cegah_pilek",
+     "patterns": ["saya terkena pilek?", "bisa bantu saya mencegah pilek?", "saran cegah pilek?", "saran agar tidak terkena pilek", "cara mencegah pilek?", "pengobatan pilek?"],
+     "responses": ["cara terbaik untuk mencegah pilek. rutin mencuci tangan, menjaga jarak dengan orang yang terkena pilek atau infeksi, konsumsi makanan sehat dan olahraga teratur"]
+    },
+    {"tag": "diare",
+     "patterns": ["diare?", "apa itu diare?"],
+     "responses": ["Diare adalah suatu kondisi di mana tinja menjadi cair dan seringkali disertai kram perut, umumnya diakibatkan oleh infeksi usus.", "Infeksi usus yang menyebabkan tinja cair."]
+    },
+    {"tag": "cegah_diare",
+     "patterns": ["saya terkena diare?", "saran cegah diare?", "saran agar tidak terkena diare", "tolong saya terkena diare?", "saya kena diare? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahan diare melibatkan konsumsi air bersih, menjaga kebersihan tangan, dan menghindari makanan atau air yang mungkin terkontaminasi.", "Pencegahan: Konsumsi air bersih, cuci tangan, hindari makanan terkontaminasi."]
+    },
+    {"tag": "sakitkepala",
+     "patterns": ["sakit kepala?", "apa itu sakit kepala?"],
+     "responses": ["Sakit kepala, meskipun bisa disebabkan oleh berbagai faktor, sering kali terkait dengan stres dan kelelahan.", "Nyeri di kepala, yang disebabkan oleh stres."]
+    },
+    {"tag": "cegah_sakitkepala",
+     "patterns": ["saya terkena sakit kepala?", "saran cegah sakit kepala?", "saran agar tidak terkena sakit kepala", "tolong saya terkena sakit kepala?", "saya kena sakit kepala? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahan: Manajemen stres, istirahat cukup, hidrasi.", "Pencegahan sakit kepala melibatkan manajemen stres, istirahat yang cukup, dan memastikan diri terhidrasi dengan baik."]
+    },
+    {"tag": "sariawan",
+     "patterns": ["sariawan?", "apa itu sariawan?"],
+     "responses": ["Sariawan adalah luka kecil di dalam mulut, dapat disebabkan oleh beberapa faktor, termasuk kurangnya kebersihan mulut.", "Luka kecil di mulut."]
+    },
+    {"tag": "cegah_sariawan",
+     "patterns": ["saya terkena sariawan?", "saran cegah sariawan?", "saran agar tidak terkena sariawan", "tolong saya terkena sariawan?", "saya kena sariawan? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahannya kebersihan mulut, hindari makanan pedas, gunakan obat kumur antiseptik.", "Pencegahannya melibatkan kebersihan mulut, hindari makanan pedas, dan gunakan obat kumur antiseptik."]
+    },
+    {"tag": "matamerah",
+     "patterns": ["mata merah?", "apa itu mata merah?", "gejala mata merah?"],
+     "responses": ["Mata merah atau konjungtivitis adalah infeksi mata yang menyebabkan mata merah dan berair.", "Mata merah atau konjungtivitis ialah Infeksi mata, menyebabkan mata merah dan berair."]
+    },
+    {"tag": "cegah_matamerah",
+     "patterns": ["saya terkena mata merah?", "saran cegah mata merah?", "saran agar tidak terkena mata merah", "tolong saya terkena mata merah?", "saya kena mata merah? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahan Mata Merah ialah hindari menyentuh mata dengan tangan yang kotor, menggunakan air mata buatan, dan menghindari berbagi barang pribadi dengan orang yang menderita konjungtivitis.", "Pencegahan Mata Merah: Hindari menyentuh mata, hindari berbagi barang pribadi."]
+    },
+    {"tag": "gatal",
+     "patterns": ["gatal?", "apa itu gatal?"],
+     "responses": ["Gatal-gatal atau dermatitis adalah radang kulit yang dapat menyebabkan gatal-gatal.", "Gatal-gatal atau dermatitis gejala Radang kulit yang menyebabkan gatal"]
+    },
+    {"tag": "cegah_gatal",
+     "patterns": ["saya terkena gatal?", "saran cegah gatal?", "saran agar tidak terkena gatal", "tolong saya terkena gatal?", "saya kena gatal? bagaimana cara mencegahnya"],
+     "responses": ["Pencegahan gatal-gatal melibatkan hindari alergen yang dapat memicu reaksi, menggunakan pelembap, dan memilih pakaian yang tidak iritatif.", "Pencegahan gatal-gatal ialah Hindari alergen, gunakan pelembap, pilih pakaian yang tidak iritatif."]
+    },
+    {"tag": "sakitpunggung",
+     "patterns": ["sakit punggung?", "apa itu sakit punggung?"],
+     "responses": ["Sakit Punggung dapat disebabkan oleh berbagai faktor termasuk postur tubuh yang buruk."]
+    },
+    {"tag": "cegah_sakitpunggung",
+     "patterns": ["saya terkena sakit punggung?", "saran cegah sakit punggung?", "saran agar tidak terkena sakit punggung", "tolong saya terkena sakit punggung?", "saya kena sakit punggung? bagaimana cara mencegahnya"],
+     "responses": ["Sakit Punggung dapat dicegah dengan menjaga postur tubuh yang baik, melakukan olahraga yang tepat, dan menghindari mengangkat benda berat secara tidak benar.", "Pencegahan Sakit Punggung yaitu Menjaga postur tubuh, olahraga teratur, hindari mengangkat beban berat."]
+    },
+    {"tag": "insomnia",
+     "patterns": ["insomnia?", "apa itu insomnia?", "susah tidur"],
+     "responses": ["Insomnia, kesulitan tidur atau tidur yang tidak nyenyak.", "Kesulitan tidur/ tidur tidak nyenyak."]
+    },
+    {"tag": "cegah_insomnia",
+     "patterns": ["saya terkena insomnia?", "saran cegah insomnia?", "saran agar tidak terkena insomnia", "tolong saya terkena insomnia?", "saya kena insomnia? bagaimana cara mencegahnya", "saya kesulitan tidur"],
+     "responses": ["Pencegahan insomnia : Tetapkan jadwal tidur, hindari kafein, ciptakan lingkungan tidur yang nyaman.", "Mencegah insomnia dengan mengatur jadwal tidur yang konsisten, menghindari konsumsi kafein sebelum tidur, dan menciptakan lingkungan tidur yang tenang dan nyaman."]
+    }
+    
+]
+}
