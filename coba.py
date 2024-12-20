@@ -62,14 +62,7 @@ class ChatBotGUI:
     Aplikasi Chatbot DiagnoBot
 
     Dibuat oleh:
-    - Nama: Aziz Ramadhan
-      NIM: 23SA11C012
-
-    - Nama: Dini Ambarwati
-      NIM: 22SA11A096
-
-    - Nama: Wahyuni Septianingsih
-      NIM: 22SA11A047
+    Dini Ambarwati
     """
         messagebox.showinfo("About", about_message)
 
